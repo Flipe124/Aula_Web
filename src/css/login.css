@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("../img/imagem_teste02.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+#login {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  position: absolute;
+  top: 20%;
+}
+
+#login .aHeader {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px;
+  border-bottom: 1px #CCC solid;
+}
+
+#login .aHeader img {
+  height: 50px;
+  margin: 10px;
+}
+
+#login .aBody {
+  padding: 10px;
+}
+
+#login .aBody .alert {
+  width: 88%;
+  padding: 15px;
+  border: 1px yellow solid;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#login .aBody .alert-success {
+  background-color: yellow;
+  border-color: #000;
+}
+
+#login .aBody label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+#login .aBody input {
+  width: 95%;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+#login .aBody .btn {
+  width: 100%;
+  background-color: #f3db01;
+  color: #000;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#login .aBody .btn:hover {
+  background-color: #dfd008;
+}
+
+#login .aBody #btn-div {
+  padding: 15px;
+}
+
+#login .aBody .atalho .esquerda {
+  float: left;
+}
+
+#login .aBody .atalho .direita {
+  float: right;
+}
+
+#login .aBody .atalho div {
+  font-size: 10px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#login .aBody .atalho div a {
+  color: #FFF;
+}
+/*# sourceMappingURL=login.css.map */
